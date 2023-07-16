@@ -95,8 +95,8 @@ class ActiveRecord {
         $query .= "') ";
 
         // VER LA CONSULTA DEL FETCH
-        // echo json_encode(['sql' => $query]);
-        // return;
+        echo json_encode(['sql' => $query]);
+        return;
        
 
         // Resultado de la consulta
