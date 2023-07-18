@@ -135,7 +135,7 @@
         }
     }
     function mostrarFormulario(editar = false, tarea = {}){
-        console.log(tarea);
+        // console.log(tarea);
         
         const modal = document.createElement('DIV');
         modal.classList.add('modal');
@@ -238,6 +238,8 @@
           });
           
           const resultado = await respuesta.json();
+          console.log(respuesta);
+          
        
           
           mostrarAlerta(resultado.mensaje, resultado.tipo, 
