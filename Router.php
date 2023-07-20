@@ -56,6 +56,3 @@ class Router
 }
 
 
-// host:nyc.domcloud.id
-// u:uptask-gcdev
-// p: t-9G73LCnt-q(4sV7C

@@ -42,7 +42,7 @@
             const respuesta = await fetch(url);
             const resultado = await respuesta.json();
             tareas = resultado.tareas;
-            mostrarTareas()
+            mostrarTareas();
             
             
 
@@ -236,11 +236,10 @@
             method:'POST',
             body:datos
           });
-          
-          const resultado = await respuesta.json();
           console.log(respuesta);
           
-       
+          
+          const resultado = await respuesta.json();
           
           mostrarAlerta(resultado.mensaje, resultado.tipo, 
           document.querySelector('.formulario legend') );
