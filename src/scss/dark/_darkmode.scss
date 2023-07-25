@@ -45,7 +45,7 @@
     }
 
     .barra-mobile,
-    .barra {
+    .barra{
         background-color: darken($grisOscuro, 7%);
     }
     .barra {
@@ -91,11 +91,14 @@
         }
     }
 
-    .listado-proyectos .proyecto {
+    .listado-proyectos .proyecto  {
         background-color: lighten($grisOscuro, 20%);
         &:hover {
             background-color: lighten($grisOscuro, 15%);
         }
+    }
+    .listado-proyectos .proyecto ul{
+        background-color: lighten($grisOscuro, 5%);
     }
     .listado-tareas .tarea {
         background-color: lighten($grisOscuro, 10%);

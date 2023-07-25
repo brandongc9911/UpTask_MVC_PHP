@@ -22,11 +22,12 @@
     .proyecto{
         background-color: lighten(v.$indigo,5%);
         min-height: 12rem;
-        display: flex;
         align-items: center;
         padding: 2rem;
         line-height: 2;
         border-radius: .5rem;
+        position: relative;
+        
 
         &:hover{
             background-color: darken(v.$indigo, 5%);
@@ -34,6 +35,49 @@
 
         a{
             color: v.$blanco;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 26rem;
+            
         }
+        .opciones{
+            width: .5rem;
+            position: absolute;
+            right: 1rem;
+
+            &:hover{
+                cursor: pointer;
+            }
+
+        }
+        ul{
+            list-style: none;
+            padding: 2rem;
+            list-style: none;
+            background-color: darken(v.$indigo,20%);
+            color: v.$blanco;
+            padding: 0.7rem;
+            width: 9rem;
+            height: 8rem;
+            border-radius: 0.5rem;
+            position: absolute;
+            right: 2rem;
+            top: 0rem;
+
+            
+        }
+
+        li{
+            line-height: 2;
+            border-bottom: 1px solid v.$blanco;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .show{
+            display: none;
+        }
+       
     }
 }

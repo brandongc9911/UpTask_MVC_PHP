@@ -45,6 +45,10 @@
             display: flex;
             justify-content: center;
             height: 5rem;
+            img{
+                width: 3rem;
+
+            }
             img:hover{
                 cursor: pointer;
             }

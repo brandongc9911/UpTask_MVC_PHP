@@ -236,7 +236,7 @@
             method:'POST',
             body:datos
           });
-          console.log(respuesta);
+          
           
           
           const resultado = await respuesta.json();
@@ -248,7 +248,7 @@
             const modal = document.querySelector('.modal');
             setTimeout(()=>{
                 modal.remove();
-            }, 3000);
+            }, 2000);
 
             // AGREGAR EL OBJETO DE TAREA AL GLOBAL DE TAREAS
             const tareaObj = {
