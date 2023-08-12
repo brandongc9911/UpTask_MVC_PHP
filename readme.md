@@ -1,12 +1,12 @@
 # UpTask 
 !['uptask'](/src/img/uptask.png)
 
-
-**UpTask** es una aplicación web para la gestión de tareas y proyectos. Permite a los usuarios organizar y dar seguimiento a sus tareas de manera efectiva. El proyecto está desarrollado utilizando las siguientes tecnologías:
-
 ## Demo
 
 Puedes ver una demostración en vivo de este proyecto [aquí](https://uptask-gcdev.domcloud.io).
+
+**UpTask** es una aplicación web para la gestión de tareas y proyectos. Permite a los usuarios organizar y dar seguimiento a sus tareas de manera efectiva. El proyecto está desarrollado utilizando las siguientes tecnologías:
+
 
 * PHP
 * MySQL
